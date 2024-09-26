@@ -1,0 +1,15 @@
+.fondo {
+    background-color: bisque;
+}
+
+.Texto {
+    font-size: 80px;
+    color: brown;
+    font-style: oblique;
+}
+
+.miTexto {
+    font-size: 30px;
+    color: rgb(4, 4, 74);
+    font-family: 'Courier New', Courier, monospace;
+}
