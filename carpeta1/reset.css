@@ -1,0 +1,66 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1; /* Improve readability */
+    -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
+}
+
+body {
+    font-family: sans-serif; /* Use a default font */
+    font-size: 100%; /* Base font size */
+    line-height: 1.5; /* Improve readability */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remove default heading boldness */
+    font-size: inherit; /* Heredar tamaño de fuente */
+    margin: 0; /* Eliminar márgenes */
+}
+
+ul, ol {
+    list-style: none; /* Remove default list styling */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Eliminar espacios en línea */
+}
+
+table {
+    border-collapse: collapse; /* Collapses table borders */
+    width: 100%; /* Full width tables */
+}
+
+button {
+    cursor: pointer; /* Change cursor for buttons */
+    border: none; /* Remove default button styling */
+    padding: 0; /* Reset button padding */
+    background: none; /* Sin fondo */
+    font: inherit; /* Heredar fuente del padre */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Elementos de formulario */
+input, textarea, select {
+    margin: 0; /* Eliminar márgenes */
+    font: inherit; /* Heredar fuente del padre */
+}
+
+/* Dividir elementos */
+hr {
+    border: none; /* Eliminar borde */
+    height: 1px; /* Altura predeterminada */
+    background: #000; /* Color del separador */
+}
